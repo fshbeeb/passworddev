@@ -115,6 +115,7 @@ a {
   height: 30px;
   display: block;
   flex: none;
+  border-radius: 7px;
 }
 
 .nav {
