@@ -360,6 +360,54 @@ h3 {
   background: #185638;
 }
 
+.product-alineana {
+  background: #f7f7f5;
+  color: var(--ink);
+  border: 1px solid #e2e2de;
+}
+
+.product-alineana .product-index,
+.product-alineana .product-kind {
+  color: #3f3f3a;
+}
+
+.product-alineana li {
+  border-top-color: #e2e2de;
+}
+
+.product-alineana .product-link {
+  background: #1c1916;
+  color: #f7f7f5;
+}
+
+.product-alineana .product-link:hover {
+  background: #000000;
+}
+
+.product-fshbeeb {
+  background: #f5f8ff;
+  color: #142033;
+  border: 1px solid #d5e3f5;
+}
+
+.product-fshbeeb .product-index,
+.product-fshbeeb .product-kind {
+  color: #3d628f;
+}
+
+.product-fshbeeb li {
+  border-top-color: #d5e3f5;
+}
+
+.product-fshbeeb .product-link {
+  background: #1a3654;
+  color: #f5f8ff;
+}
+
+.product-fshbeeb .product-link:hover {
+  background: #10263d;
+}
+
 .company {
   border-top: 1px solid var(--line);
 }
