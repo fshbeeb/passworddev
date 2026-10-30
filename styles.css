@@ -385,30 +385,6 @@ h3 {
   background: #000000;
 }
 
-.product-fshbeeb {
-  background: #f5f8ff;
-  color: #142033;
-  border: 1px solid #d5e3f5;
-}
-
-.product-fshbeeb .product-index,
-.product-fshbeeb .product-kind {
-  color: #3d628f;
-}
-
-.product-fshbeeb li {
-  border-top-color: #d5e3f5;
-}
-
-.product-fshbeeb .product-link {
-  background: #1a3654;
-  color: #f5f8ff;
-}
-
-.product-fshbeeb .product-link:hover {
-  background: #10263d;
-}
-
 .company {
   border-top: 1px solid var(--line);
 }
