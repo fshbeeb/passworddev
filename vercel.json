@@ -2,9 +2,25 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.passworddev.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.passworddev.com"
+        }
+      ],
       "destination": "https://passworddev.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/websites.html",
+      "destination": "/websites",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/websites",
+      "destination": "/websites.html"
     }
   ]
 }
